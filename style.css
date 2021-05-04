@@ -1,49 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
 
 body {
-    font-family: 'Inconsolata', monospace;
-    background-image: url("https://www.fda.gov/files/covid19-1600x900.jpg");
+    font-family: 'Inconsolata',
+        monospace;
+    background-image: url(https://www.fda.gov/files/covid19-1600x900.jpg);
     background-size: cover;
     text-align: center;
 }
 
 form {
-    position: absolute;
     background-color: white;
-    opacity: .9;
-    padding: 40px 40px;
-    border-radius: 10px;
-    width: 800px;
-    left: 250px;
-    top: 100px;
-    text-align: center;
+    margin: 2% 10%;
+    padding: 50px;
+    opacity: 0.8;
+    border-radius: 20px;
 }
 
 h1 {
     font-size: 50px;
-    color: rgb(14, 245, 168);
+    margin-top: 20px;
+    color: white;
+}
+
+#button {
+    padding: 8px;
+    background-color: crimson;
+    font-weight: bold;
+    color: white;
+    border-radius: 4px;
 }
 
 label {
     font-size: 20px;
-    padding: 20px;
-}
-
-#button {
-    width: 100px;
-    height: 50px;
-    border-radius: 15px;
-    border: 4px solid crimson;
-    background-color: lightcoral;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.display {
-    display: block;
-    font-weight: bold;
-}
-
-#info {
-    font-weight: bold;
 }
